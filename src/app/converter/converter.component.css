@@ -1,0 +1,36 @@
+#converter{
+  padding: 24px;
+}
+.converter-card{
+  color: #fff;
+  width: 300px;
+  height: 200px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  background: #6495ed;
+  box-shadow: 0px 2px 4px 0px #000000dd;
+  border-radius: 8px;
+}
+.cart-title{
+  margin-bottom: 12px;
+}
+.cart-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+}
+.currency-fields{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.currency-fields > input, .currency-fields > select{
+  width: 40%;
+  outline: 0;
+}
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

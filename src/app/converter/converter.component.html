@@ -1,0 +1,25 @@
+<div class="row" id="converter">
+  <div class="converter-card">
+    <div class="cart-title">
+      <h3>Choose currency</h3>
+    </div>
+    <div class="cart-content">
+      <div class="currency-fields">
+        <input type="number" name="currency-1" id="currency-1" placeholder="{{items[1].rate}}" #currency1 (input)="onChange(currency1, currency2, select1, select2)">
+        <select name="currency-select-1" id="currency-select-1" #select1 (change)="onChange(currency1, currency2, select1, select2)">
+          <option value="{{0}}">{{items[0].txt}}</option>
+          <option value="{{1}}">{{items[1].txt}}</option>
+          <option value="{{2}}">{{items[2].txt}}</option>
+        </select>
+      </div>
+      <div class="currency-fields">
+        <input type="number" name="currency-2" id="currency-2" placeholder="{{items[0].rate}}" #currency2 (input)="onChange(currency2, currency1, select2, select1)">
+        <select name="currency-select-2" id="currency-select-2" #select2 (change)="onChange(currency1, currency2, select1, select2)">
+          <option value="{{0}}">{{items[0].txt}}</option>
+          <option selected value="{{1}}">{{items[1].txt}}</option>
+          <option value="{{2}}">{{items[2].txt}}</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</div>
