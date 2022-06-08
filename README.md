@@ -1,3 +1,16 @@
+# About App
+Just currency converter created on angular with three currency choice.
+
+# About Angular
+This is my first project written using angular. I have never had to work with it, but despite this I quickly figured out what to do.
+
+By the way, I even enjoyed working with Angular and if I have free time, I will definitely try to create something more difficult and interest.
+
+# About UI and design
+I took the "First-mobile" approach as a basis, that's why the UI turned out to be adaptive and displays correctly on all devices.
+
+I tried to reproduce materialUI when coding styles for the app, I think I succeeded (except for the input field ^-^).
+
 # Convert
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
